@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	font-style: italic;
+	position: static;
+	margin: 0px;
+	background-color: #808080;
+	margin-left: 20%;
+}
+
+h1 {
+	color: #fff;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	background: #808080;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	width: 100vw;
+	height: 100vh;
+	background: #808080;
+}
+
+.Botao1 {
+	text-decoration: none;
+	background-color: #000000;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2e;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+
+.Botao2 {
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2e;
+	font-weight: 700;
+	border-radius: 5px;
+}
+
+.Caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.Caixa2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+#tabela {
+	margin-top: 30px;
+	width: 80%;
+	margin-bottom: .5em;
+	table-layout: auto;
+	text-align: center;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: #000000;
+	color: #fff;
+	border-collapse: colapse;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	color: #fff;
+}
+
+#caixa3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+	border-radius: 5px;
+}

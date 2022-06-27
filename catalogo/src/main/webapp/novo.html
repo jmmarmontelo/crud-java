@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Novo</title>
+<link rel="icon" href="imagens/movie.jpg">
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+	<h1>Novo filme</h1>
+	<form name="frmFilme" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="ano" placeholder="Ano"
+					class="Caixa2"></td>
+			</tr>
+
+			<tr>
+				<td><textarea rows="7" cols="30" name="descricao" placeholder="Descricao" class="Caixa1"></textarea></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onclick="validar()">
+		<a href="main" class="Botao2">Voltar</a>
+	</form>
+	
+<script src="scripts/validador.js"></script>
+</body>
+</html>
